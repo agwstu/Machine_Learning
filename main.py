@@ -22,6 +22,7 @@ if __name__ == '__main__':
 
 wd ='/Users/agatawytrykowska/Desktop/studia/magisterka/3sem/Analiza wielowymiarowa/data'
 
-data = arff.loadarff(wd+'/'+'1year.arff')
-df = pd.DataFrame(data[0])
-print(df.head())
+data1 = arff.loadarff(wd+'/'+'1year.arff')
+data2 = arff.loadarff(wd+'/'+'2year.arff')
+
+
